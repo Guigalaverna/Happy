@@ -3,7 +3,7 @@ import { FiPlus } from "react-icons/fi"
 import { Map, TileLayer } from "react-leaflet"
 import { Link } from 'react-router-dom'
 
-
+import 'leaflet/dist/leaflet.css'
 import mapMarker from '../../images/map-marker.svg'
 import './styles.css'
 
@@ -32,7 +32,8 @@ const OrphanagesMap = () => {
           height: '100%'
         }}
       >
-        <TileLayer url='https://a.title.openstreet.org/{z}/{x}/{y}.png' />
+        {/* <TileLayer url='https://a.title.openstreet.org/{z}/{x}/{y}.png' /> */}
+        <TileLayer url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`} />
       </Map>
 
       <Link to="" className="create-orphanage"><FiPlus size={32} color='white' /></Link>
