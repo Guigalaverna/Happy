@@ -10,5 +10,5 @@ body {
 }
 
 body, input, textarea, button {
-  font-family: "Nunito";
+  font: 600 18px "Nunito" sans-serif;
 }
