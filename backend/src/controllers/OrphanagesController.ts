@@ -3,13 +3,17 @@ import Orphanage from '../models/Orphanage'
 
 import { Request, Response } from 'express'
 
+import OrphanageView from '../views/orphanages_view'
+
 export default {
   async index(req: Request, res: Response) {
     const orphanageRepository = getRepository(Orphanage)
 
-    const orphanages = await orphanageRepository.find()
+    const orphanages = await orphanageRepository.find({
+      relations: ['images']
+    })
 
-    return res.status(200).json(orphanages)
+    return res.status(200).json(OrphanageView.renderMany(orphanages))
   },
 
   async show(req: Request, res: Response) {
@@ -17,9 +21,9 @@ export default {
 
     const orphanageRepository = getRepository(Orphanage)
 
-    const orphanage = await orphanageRepository.findOneOrFail(id)
+    const orphanage = await orphanageRepository.findOneOrFail(id, { relations: ['images']})
 
-    return res.status(200).json(orphanage)
+    return res.status(200).json(OrphanageView.render(orphanage))
   },
 
 
@@ -34,6 +38,12 @@ export default {
         opening_hours,
         open_on_weekends,
       } = req.body
+
+      const requestImages = req.files as Express.Multer.File[]
+
+      const images = requestImages.map(image => {
+        return { path: image.filename }
+      })
     
       const orphanageRepository = getRepository(Orphanage)
     
@@ -44,7 +54,8 @@ export default {
         about,
         instructions,
         opening_hours,
-        open_on_weekends
+        open_on_weekends,
+        images
       })
     
       await orphanageRepository.save(orphanage)
