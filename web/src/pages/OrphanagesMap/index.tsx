@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 
 import Leaflet from 'leaflet'
 
-import 'leaflet/dist/leaflet.css'
 import mapMarker from '../../images/map-marker.svg'
 import './styles.css'
 
