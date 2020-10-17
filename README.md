@@ -7,7 +7,7 @@
   <img src='https://img.shields.io/static/v1?label=Technologies&message=4&color=important' />
   <img src='https://img.shields.io/static/v1?label=License&message=MIT&color=gray' />
   <p align="center">
-  <a href="https://github.com/tgmarinho/README-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 </div>
 
