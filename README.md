@@ -12,14 +12,14 @@
 </div>
 
 <p align="center">
-  <a href='#sobre'>Sobre</a> 
+  <a href='#sobre'>Sobre</a> • 
   <a href='#funcionalidades'>Funcionalidades</a> • 
   <a href='#como-executar'>Como Executar</a> • 
   <a href='#layout'>Layout</a> • 
   <a href='#agradecimentos'>Agradecimentos</a>
 </p>
 
-<a name='#sobre'></a>
+<a id='#sobre'></a>
 ## 💻 Sobre o Projeto
 
 😁 Happy - é uma forma de conectar casas de acolhimento e as pessoas facilitando a visita, permitindo fazer o dia de crianças mais feliz
