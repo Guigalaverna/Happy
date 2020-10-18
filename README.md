@@ -81,7 +81,7 @@ $ yarn start
 
 # O servidor estara rodando na porta 3000 - Acesse http://localhost:3000
 ```
-### 🧭 **Rodando a aplicação no celular (Mobile)**
+### :iphone: **Rodando a aplicação no celular (Mobile)**
 
 ```
 # Clone o repositório
