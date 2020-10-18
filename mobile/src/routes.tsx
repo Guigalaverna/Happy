@@ -11,6 +11,7 @@ import OrphanageData from './pages/CreateOrphanage/OrphanageData';
 import SelectMapPosition from './pages/CreateOrphanage/SelectMapPosition';
 
 import Header from './components/Header'
+import OnboardingScreen from './pages/Onboarding';
 
 const Routes = () => {
   return (
@@ -21,6 +22,14 @@ const Routes = () => {
           cardStyle: { backgroundColor: '#F2F3F5'} 
         }}
         >
+
+        <Screen 
+          component={OnboardingScreen} 
+          name='OnboardingScreen' 
+          options={{ 
+            header: () => <Header title='Selecione no mapa'/>
+          }} 
+        />
 
         <Screen 
           component={OrphanagesMap} 
@@ -53,6 +62,8 @@ const Routes = () => {
             header: () => <Header title='Selecione no mapa'/>
           }} 
         />
+
+        
 
       </Navigator>
     </NavigationContainer>
