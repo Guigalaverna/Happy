@@ -34,7 +34,7 @@ Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela Rocketse
     - [x] Horário de Atendimento
     - [x] Se atende finais de semana
 - [x] Funcionalidades adicionais
-    - [x] O usuário pode favoritar a casa
+    - [] O usuário pode favoritar a casa
 
 🚀 Como executar o projeto
 ========================
