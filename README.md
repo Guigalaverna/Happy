@@ -81,6 +81,29 @@ $ yarn start
 
 # O servidor estara rodando na porta 3000 - Acesse http://localhost:3000
 ```
+### 🧭 **Rodando a aplicação no celular (Mobile)**
+
+```
+# Clone o repositório
+$ git clone https://github.com/Guigalaverna/Happy
+
+# Acesse a pasta do projeto no terminal
+$ cd Happy
+
+# Acesse a pasta do front-end
+$ cd mobile
+
+# Instale as dependências
+$ yarn install
+
+# Execute o front-end
+$ yarn start
+
+# O servidor estara rodando na porta 190002 - Acesse http://localhost:190002
+# Será apresentado um QRCode, escaneie ele e tenha certeza de ter o Expo ou Expo Client instalado no seu celular
+```
+
+
 
 🔨 Tecnologias
 ====
@@ -114,6 +137,8 @@ $ yarn start
 - Leaflet
 - Visual Studio Code
 - Insomnia
+- GitKraken
+- BeekepperStudio
 
 🎨 Layout
 ===
