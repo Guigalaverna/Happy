@@ -1,0 +1,7 @@
+ports:
+  - port: 3333
+  - port: 3000
+    onOpen: open-preview
+tasks:
+  - init: cd web && yarn install
+    command: nvm install 13.3.0 && yarn install && yarn start
