@@ -8,8 +8,10 @@
   <img src='https://img.shields.io/static/v1?label=License&message=MIT&color=gray' />
   <p align="center">
   <a href="https://raw.githubusercontent.com/Guigalaverna/Happy/main/mobile/.github/Happy_API.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://gitpod.io/#https://github.com/Guigalaverna/Happy" target="_blank"><img src="https://user-images.githubusercontent.com/61639302/96381143-56786800-1166-11eb-9ee1-f87795e5b1f4.png" alt="Run in Gitpod"></a>
 </p>
 </div>
+![run](https://user-images.githubusercontent.com/61639302/96381143-56786800-1166-11eb-9ee1-f87795e5b1f4.png)
 
 <p align="center">
   <a href='#sobre'>Sobre</a> • 
