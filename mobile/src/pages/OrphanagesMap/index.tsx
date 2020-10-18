@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import { StatusBar } from 'expo-status-bar';
 import { Text, View } from 'react-native';
@@ -8,7 +8,7 @@ import { Feather } from '@expo/vector-icons'
 import styles from './styles'
 
 import mapMarker from '../../images/mapMarker.png'
-import { useNavigation } from '@react-navigation/native';
+import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import { RectButton } from 'react-native-gesture-handler';
 import api from '../../services/api';
 
@@ -30,11 +30,11 @@ const App = () => {
     navigate('OrphanageDetails', { id })
   }
   
-  useEffect(() => {
+  useFocusEffect(() => {
     api.get('orphanages').then(response => {
       setOrphanges(response.data)
     })
-  }, [])
+  })
 
   return (
     <View style={styles.container}>
