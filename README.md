@@ -20,14 +20,14 @@
 </p>
 
 <a name='#sobre'></a>
-💻 Sobre o Projeto
-========================
+## 💻 Sobre o Projeto
+
 😁 Happy - é uma forma de conectar casas de acolhimento e as pessoas facilitando a visita, permitindo fazer o dia de crianças mais feliz
 
 Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela Rocketseat na sua 3º edição contendo muito conteúdo prático e desafios durante toda a semana 
 
 ⚙ Funcionalidades
-======================
+
 - [x] Casas de acolhimento podem se cadastrar na plataforma enviando:
     - [x] Nome da casa de acolhimento
     - [x] Imagens da casa
@@ -37,11 +37,11 @@ Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela Rocketse
 - [x] Funcionalidades adicionais
     - [ ] O usuário pode favoritar a casa
 
-🚀 Como executar o projeto
-========================
+## 🚀 Como executar o projeto
+
 Para poder executar o projeto é preciso ter o [NodeJS](https://nodejs.org), [Git](https://git-scm.com) e um editor de código instalado em seu computador como o [Visual Studio Code](https://code.visualstudio.com), e como opcional o [Yarn](https://yarnpkg.org)
 
-### 🎲 **Rodando o Back-end (servidor)**
+## 🎲 **Rodando o Back-end (servidor)**
 
 ```
 # Clone o repositório
@@ -62,7 +62,7 @@ $ yarn dev
 # O servidor estara rodando na porta 3333 - Acesse http://localhost:3333
 ```
 
-### 🧭 **Rodando a aplicação web (Frontend)**
+## 🧭 **Rodando a aplicação web (Frontend)**
 
 ```
 # Clone o repositório
@@ -82,7 +82,7 @@ $ yarn start
 
 # O servidor estara rodando na porta 3000 - Acesse http://localhost:3000
 ```
-### :iphone: **Rodando a aplicação no celular (Mobile)**
+## :iphone: **Rodando a aplicação no celular (Mobile)**
 
 ```
 # Clone o repositório
@@ -106,8 +106,8 @@ $ yarn start
 
 
 
-🔨 Tecnologias
-====
+## 🔨 Tecnologias
+
 
 **Website** ([React](https://reactjs.org) + [TypeScript](https://typescriptlang.org))
 
@@ -141,8 +141,8 @@ $ yarn start
 - GitKraken
 - BeekepperStudio
 
-🎨 Layout
-===
+## 🎨 Layout
+
 O layout do Happy está hospedado no Figma e foi criado por [Tiago Lutchenberg](https://www.instagram.com/tiagoluchtenberg/)
 
 Para acessar o protótipo clique nesses cards
@@ -157,8 +157,7 @@ Para acessar o protótipo clique nesses cards
   </a>
 </div>
 
-🖐 Agradecimentos
-===
+## 🖐 Agradecimentos
 
 💜 Um super obrigado para essa galera que fez esse projeto
 
