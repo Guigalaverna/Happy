@@ -43,8 +43,7 @@ const Orphanage = () => {
     return <p>Carregando...</p>
   }
 
-  
-  
+ 
   return (
     <div id="page-orphanage">
       <Sidebar />
