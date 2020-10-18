@@ -7,18 +7,19 @@
   <img src='https://img.shields.io/static/v1?label=Technologies&message=4&color=important' />
   <img src='https://img.shields.io/static/v1?label=License&message=MIT&color=gray' />
   <p align="center">
-  <a href="" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://raw.githubusercontent.com/Guigalaverna/Happy/main/mobile/.github/Happy_API.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 </div>
 
 <p align="center">
-  <a href='#sobre'>Sobre</a> •
+  <a href='#sobre'>Sobre</a> 
   <a href='#funcionalidades'>Funcionalidades</a> • 
   <a href='#como-executar'>Como Executar</a> • 
   <a href='#layout'>Layout</a> • 
   <a href='#agradecimentos'>Agradecimentos</a>
 </p>
 
+<a name='#sobre'></a>
 💻 Sobre o Projeto
 ========================
 😁 Happy - é uma forma de conectar casas de acolhimento e as pessoas facilitando a visita, permitindo fazer o dia de crianças mais feliz
