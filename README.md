@@ -7,26 +7,27 @@
   <img src='https://img.shields.io/static/v1?label=Technologies&message=4&color=important' />
   <img src='https://img.shields.io/static/v1?label=License&message=MIT&color=gray' />
   <p align="center">
-  <a href="" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://raw.githubusercontent.com/Guigalaverna/Happy/main/mobile/.github/Happy_API.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 </div>
 
 <p align="center">
-  <a href='#sobre'>Sobre</a> •
+  <a href='#sobre'>Sobre</a> • 
   <a href='#funcionalidades'>Funcionalidades</a> • 
   <a href='#como-executar'>Como Executar</a> • 
   <a href='#layout'>Layout</a> • 
   <a href='#agradecimentos'>Agradecimentos</a>
 </p>
 
-💻 Sobre o Projeto
-========================
+<a id='#sobre'></a>
+## 💻 Sobre o Projeto
+
 😁 Happy - é uma forma de conectar casas de acolhimento e as pessoas facilitando a visita, permitindo fazer o dia de crianças mais feliz
 
 Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela Rocketseat na sua 3º edição contendo muito conteúdo prático e desafios durante toda a semana 
 
 ⚙ Funcionalidades
-======================
+
 - [x] Casas de acolhimento podem se cadastrar na plataforma enviando:
     - [x] Nome da casa de acolhimento
     - [x] Imagens da casa
@@ -34,13 +35,13 @@ Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela Rocketse
     - [x] Horário de Atendimento
     - [x] Se atende finais de semana
 - [x] Funcionalidades adicionais
-    - [x] O usuário pode favoritar a casa
+    - [ ] O usuário pode favoritar a casa
 
-🚀 Como executar o projeto
-========================
+## 🚀 Como executar o projeto
+
 Para poder executar o projeto é preciso ter o [NodeJS](https://nodejs.org), [Git](https://git-scm.com) e um editor de código instalado em seu computador como o [Visual Studio Code](https://code.visualstudio.com), e como opcional o [Yarn](https://yarnpkg.org)
 
-### 🎲 **Rodando o Back-end (servidor)**
+## 🎲 **Rodando o Back-end (servidor)**
 
 ```
 # Clone o repositório
@@ -61,7 +62,7 @@ $ yarn dev
 # O servidor estara rodando na porta 3333 - Acesse http://localhost:3333
 ```
 
-### 🧭 **Rodando a aplicação web (Frontend)**
+## 🧭 **Rodando a aplicação web (Frontend)**
 
 ```
 # Clone o repositório
@@ -81,9 +82,32 @@ $ yarn start
 
 # O servidor estara rodando na porta 3000 - Acesse http://localhost:3000
 ```
+## :iphone: **Rodando a aplicação no celular (Mobile)**
 
-🔨 Tecnologias
-====
+```
+# Clone o repositório
+$ git clone https://github.com/Guigalaverna/Happy
+
+# Acesse a pasta do projeto no terminal
+$ cd Happy
+
+# Acesse a pasta do front-end
+$ cd mobile
+
+# Instale as dependências
+$ yarn install
+
+# Execute o front-end
+$ yarn start
+
+# O servidor estara rodando na porta 190002 - Acesse http://localhost:190002
+# Será apresentado um QRCode, escaneie ele e tenha certeza de ter o Expo ou Expo Client instalado no seu celular
+```
+
+
+
+## 🔨 Tecnologias
+
 
 **Website** ([React](https://reactjs.org) + [TypeScript](https://typescriptlang.org))
 
@@ -114,9 +138,11 @@ $ yarn start
 - Leaflet
 - Visual Studio Code
 - Insomnia
+- GitKraken
+- BeekepperStudio
 
-🎨 Layout
-===
+## 🎨 Layout
+
 O layout do Happy está hospedado no Figma e foi criado por [Tiago Lutchenberg](https://www.instagram.com/tiagoluchtenberg/)
 
 Para acessar o protótipo clique nesses cards
@@ -131,8 +157,7 @@ Para acessar o protótipo clique nesses cards
   </a>
 </div>
 
-🖐 Agradecimentos
-===
+## 🖐 Agradecimentos
 
 💜 Um super obrigado para essa galera que fez esse projeto
 
