@@ -38,6 +38,18 @@ let styles = StyleSheet.create({
     textAlignVertical: 'top',
   },
 
+  uploadedImagesContainer: {
+    flexDirection: 'row',
+  },
+
+  uploadedImage: {
+    width: 64,
+    height: 64,
+    borderRadius: 20,
+    marginBottom: 32,
+    marginRight: 38
+  },
+
   imagesInput: {
     backgroundColor: 'rgba(255, 255, 255, 0.5)',
     borderStyle: 'dashed',
