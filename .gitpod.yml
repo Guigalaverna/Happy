@@ -5,5 +5,5 @@ ports:
 tasks:
   - init: cd web
     command: nvm install 13.3.0 && yarn install && yarn start
-  - init: cd ../backend
+  - init: cd backend
     command: yarn install && yarn dev
