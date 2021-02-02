@@ -18,4 +18,6 @@ routes.get("/users", UserController.index);
 routes.get("/users/:id", UserController.show);
 routes.post("/users", UserController.create);
 
+routes.post("/login", UserController.login);
+
 export default routes;
