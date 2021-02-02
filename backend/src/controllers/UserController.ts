@@ -9,6 +9,16 @@ import UserView from "../views/users_view";
 
 import bcrypt from "bcryptjs";
 
+import jwt from "jsonwebtoken";
+
+import authConfig from "../config/auth.json";
+
+interface UserProps {
+  id: number;
+  name: string;
+  password: string;
+}
+
 export default {
   async index(req: Request, res: Response) {
     const userRepository = getRepository(User);
@@ -60,9 +70,75 @@ export default {
 
       await userRepository.save(newUser);
 
-      return res.status(201).json(newUser);
+      const token = jwt.sign({ id: newUser.id }, authConfig.secret, {
+        expiresIn: 86400,
+      });
+
+      return res.status(201).json(UserView.renderWithToken(newUser, token));
     } catch (error) {
       return res.status(501).json({ error });
+    }
+  },
+
+  async delete(req: Request, res: Response) {
+    const userRepository = getRepository(User);
+
+    try {
+      const { id } = req.params;
+
+      userRepository.delete(id);
+    } catch {}
+  },
+
+  async login(req: Request, res: Response) {
+    const userRepository = getRepository(User);
+
+    try {
+      /*
+        Pegar dados da request
+        Verficar se os dados não estão vazios
+        Verificar de a senha está correta
+        Gerar JWT e retornar
+      */
+
+      const { password, email } = req.body;
+
+      const data = {
+        email,
+        password,
+      };
+
+      const user = await userRepository
+        .createQueryBuilder("user")
+        .where("email=:email", { email })
+        .getOne();
+
+      if (!user) {
+        return res.status(404).json({ error: "User not found" });
+      }
+
+      // Validar dados
+
+      const schema = Yup.object().shape({
+        email: Yup.string().required(),
+        password: Yup.string().required(),
+      });
+
+      schema.validate(data, {
+        abortEarly: false,
+      });
+
+      if (await bcrypt.compare(password, user.password)) {
+        const token = jwt.sign({ id: user.id }, authConfig.secret, {
+          expiresIn: 86400,
+        });
+
+        return res.status(200).json(UserView.renderWithToken(user, token));
+      }
+
+      return res.status(401).json({ error: "Unauthorized" });
+    } catch (error) {
+      return res.status(404).json({ error });
     }
   },
 };
