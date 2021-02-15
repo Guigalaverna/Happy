@@ -166,7 +166,5 @@ Para acessar o protótipo clique nesses cards
   <tr>
     <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 20%;" src="https://avatars2.githubusercontent.com/u/2254731?s=400&u=0ba16a79456c2f250e7579cb388fa18c5c2d7d65&v=4" width="100px;" alt=""/><br /><sub><b>Diego Fernandes</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat">👨‍🚀</a></td>
     <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 20%;" src="https://avatars2.githubusercontent.com/u/6643122?s=460&u=1e9e1f04b76fb5374e6a041f5e41dce83f3b5d92&v=4" width="100px;" alt=""/><br /><sub><b>Mayk Brito</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat">🚀</a></td>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 20%;" src="https://avatars2.githubusercontent.com/u/37725197?s=460&u=446439436524c37f66e41f35b607dbb70358d5e4&v=4" width="100px;" alt=""/><br /><sub><b>Vinícios Fraga</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat">🚀</a></td>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 20%;" src="https://scontent-gru1-1.cdninstagram.com/v/t51.2885-19/s150x150/120059466_206117944191321_5063871569769857618_n.jpg?_nc_ht=scontent-gru1-1.cdninstagram.com&_nc_ohc=35lkwe6pX6wAX8_dZiA&oh=6386a4eff5413fd533d30d12a55d747a&oe=5FB1D918" width="100px;" alt=""/><br /><sub><b>Thiago Lutchenberg</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat">🚀</a></td>
   </tr>
 </table>
